@@ -215,7 +215,3 @@ class BME280:
 
         return ("{:.2f}C".format(t), "{:.2f}hPa".format(p/100),
                 "{:.2f}%".format(h))
-
-sensor = BME280(i2c=i2c)
-
-print(sensor.values)

@@ -97,23 +97,3 @@ class TLV493D:
         """
         azimuth = math.atan2(self.by, self.bx)
         return azimuth
-
-sensor = TLV493D()
-
-while True:
-    sensor.update_data()
-    x = sensor.get_x()
-    y = sensor.get_y()
-    z = sensor.get_z()
-    br = sensor.get_br()
-    polar = sensor.get_polar()
-    azimuth = sensor.get_azimuth()
-    
-    print("X:", x)
-    print("Y:", y)
-    print("Z:", z)
-    print("BR:", br)
-    print("Polar:", polar)
-    print("Azimuth:", azimuth)
-    
-    time.sleep(1)

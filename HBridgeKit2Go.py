@@ -1,22 +1,6 @@
 import machine
 from machine import Pin, SPI
 
-"""
-    
-    Author: Cole Costa
-    Created on: 03/03/24
-    
-    These functions interface the Infineon PSoC6 with the HBridgeKit2Go.
-    The kit includes the XMC1100 microcontroller which is used for SPI
-    communication, as well as the IFX9201SG for 6A H-Bridge with SPI.
-    This code assumes the usage of SPI Pins P9_0 for MOSI, P9_1 for MISO,
-    P9_2 for SCK, and P9_3 for CS. The PSoC6 operates in master mode at
-    a baudrate of 115200 bps. Refer to the Infineon IFX9201SG datasheet
-    for more information on registers and their bits. This code is designed 
-    for the control of DC motors or other inductive loads up to 6A.
-    
-"""
-
 class HBridgeKit2Go:
     """
     Initializes SPI protocol, chip select, and the read and write buffers.

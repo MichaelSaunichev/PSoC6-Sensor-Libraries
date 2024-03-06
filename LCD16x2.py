@@ -2,20 +2,6 @@ import machine
 import time
 from machine import I2C, Pin
 
-""" 
-
-    Author: Cole Costa
-    Created on: 02/20/24
-    
-    These functions interface the Infineon PSoc6 with the 16x2
-    Liquid Crystal Display using an I2C protocol with slave address
-    0x27. This code also assumes usage of I2C pins P6_0 and P6_1
-    for the SCL and SDA lines respectively. These fields can be
-    changed by changing the self.addr for a different address
-    and by using self.bus.init() to use different I2C pins.
-    
-"""
-
 class LCD16x2:
     
     def __init__(self):

@@ -10,9 +10,9 @@ def getTwosComplement(raw_val, length):
         Returns:
             int: Two's complement
         """
-        if raw_val & (1 << (length - 1)):
-            raw_val = raw_val - (1 << length)
-        return raw_val
+    if raw_val & (1 << (length - 1)):
+        raw_val = raw_val - (1 << length)
+    return raw_val
 
 class DPS:
 
