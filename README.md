@@ -1,4 +1,4 @@
-Developed libraries for the following peripherals:
+## Developed libraries for the following peripherals:
 
 * BME280 - Temperature / Humidity Sensor
 * DPS368 - Waterproof Pressure Sensor
@@ -8,7 +8,7 @@ Developed libraries for the following peripherals:
 * TLV493D - Magnetic 3D Sensor
 * VL53L0X - Time of Flight Sensor
 
-How To Install MicroPython
+## How To Install MicroPython
 
 Use following guide to download MicroPython: [MicroPython for PSoC 6](https://ifx-micropython.readthedocs.io/en/latest/psoc6/quickref.html)
 
