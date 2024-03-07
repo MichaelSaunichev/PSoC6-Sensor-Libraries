@@ -9,7 +9,9 @@ Developed libraries for the following peripherals:
 * VL53L0X - Time of Flight Sensor
 
 How To Install MicroPython
+
 Use following guide to download MicroPython: [MicroPython for PSoC 6](https://ifx-micropython.readthedocs.io/en/latest/psoc6/quickref.html)
+
 Currently, the only board supported for MicroPython development is the CY8CPROTO-062-4343W PSoC6
 
 Notes for Windows: After downloading the mpy-psoc6 utility script, make sure to change the encoding of the file to ANSI. This can be done as follows:
