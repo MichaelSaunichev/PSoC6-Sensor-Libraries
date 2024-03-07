@@ -10,7 +10,7 @@
 
 ## How To Install MicroPython
 
-Use following guide to download MicroPython: [MicroPython for PSoC 6](https://ifx-micropython.readthedocs.io/en/latest/psoc6/quickref.html)
+Use following guide to download MicroPython: [MicroPython for PSoC6](https://ifx-micropython.readthedocs.io/en/latest/psoc6/quickref.html)
 
 Currently, the only board supported for MicroPython development is the CY8CPROTO-062-4343W PSoC6
 
